@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @implementation ViewController
+@synthesize biolabel, artists;
 
 - (void)didReceiveMemoryWarning
 {
@@ -22,10 +23,33 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [self createArtists];
+    
+    Artists* artistToDisplay = [artists objectAtIndex:0];
+    biolabel.text = artistToDisplay.bio;
+    
+    
+
+}
+
+-(void)createArtists
+{
+    Artists* davinci;
+    davinci = [[Artists alloc] init];
+    davinci.bio = @"djaflfjdas;lkfjas;dlfkjaf";
+    
+    Artists* michelangelo;
+    michelangelo = [[Artists alloc] init];
+    michelangelo.bio = @"riutworueirquro";
+    
+    self.artists = [[NSMutableArray alloc]initWithObjects: davinci, michelangelo, nil]; 
+    
 }
 
 - (void)viewDidUnload
 {
+    [self setBiolabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
