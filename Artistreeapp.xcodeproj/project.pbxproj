@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E3AE1FF154F624A00B88CF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3AE1FE154F624A00B88CF6 /* UIKit.framework */; };
+		2E3AE201154F624A00B88CF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3AE200154F624A00B88CF6 /* Foundation.framework */; };
+		2E3AE203154F624A00B88CF6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3AE202154F624A00B88CF6 /* CoreGraphics.framework */; };
+		2E3AE209154F624A00B88CF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E3AE207154F624A00B88CF6 /* InfoPlist.strings */; };
+		2E3AE20B154F624A00B88CF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3AE20A154F624A00B88CF6 /* main.m */; };
+		2E3AE20F154F624A00B88CF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3AE20E154F624A00B88CF6 /* AppDelegate.m */; };
+		2E3AE212154F624A00B88CF6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3AE210154F624A00B88CF6 /* MainStoryboard.storyboard */; };
+		2E3AE215154F624A00B88CF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3AE214154F624A00B88CF6 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E3AE1FA154F624A00B88CF6 /* Artistreeapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Artistreeapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E3AE1FE154F624A00B88CF6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2E3AE200154F624A00B88CF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2E3AE202154F624A00B88CF6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2E3AE206154F624A00B88CF6 /* Artistreeapp-Info.plist */ = {isa = PBXFileReference; path = "Artistreeapp-Info.plist"; sourceTree = "<group>"; };
+		2E3AE208154F624A00B88CF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2E3AE20A154F624A00B88CF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E3AE20C154F624A00B88CF6 /* Artistreeapp-Prefix.pch */ = {isa = PBXFileReference; path = "Artistreeapp-Prefix.pch"; sourceTree = "<group>"; };
+		2E3AE20D154F624A00B88CF6 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E3AE20E154F624A00B88CF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E3AE211154F624A00B88CF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		2E3AE213154F624A00B88CF6 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		2E3AE214154F624A00B88CF6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E3AE1F7154F624A00B88CF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3AE1FF154F624A00B88CF6 /* UIKit.framework in Frameworks */,
+				2E3AE201154F624A00B88CF6 /* Foundation.framework in Frameworks */,
+				2E3AE203154F624A00B88CF6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E3AE1EF154F624A00B88CF6 = {
+			isa = PBXGroup;
+			children = (
+				2E3AE204154F624A00B88CF6 /* Artistreeapp */,
+				2E3AE1FD154F624A00B88CF6 /* Frameworks */,
+				2E3AE1FB154F624A00B88CF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E3AE1FB154F624A00B88CF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E3AE1FA154F624A00B88CF6 /* Artistreeapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E3AE1FD154F624A00B88CF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E3AE1FE154F624A00B88CF6 /* UIKit.framework */,
+				2E3AE200154F624A00B88CF6 /* Foundation.framework */,
+				2E3AE202154F624A00B88CF6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E3AE204154F624A00B88CF6 /* Artistreeapp */ = {
+			isa = PBXGroup;
+			children = (
+				2E3AE20D154F624A00B88CF6 /* AppDelegate.h */,
+				2E3AE20E154F624A00B88CF6 /* AppDelegate.m */,
+				2E3AE210154F624A00B88CF6 /* MainStoryboard.storyboard */,
+				2E3AE213154F624A00B88CF6 /* ViewController.h */,
+				2E3AE214154F624A00B88CF6 /* ViewController.m */,
+				2E3AE205154F624A00B88CF6 /* Supporting Files */,
+			);
+			path = Artistreeapp;
+			sourceTree = "<group>";
+		};
+		2E3AE205154F624A00B88CF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E3AE206154F624A00B88CF6 /* Artistreeapp-Info.plist */,
+				2E3AE207154F624A00B88CF6 /* InfoPlist.strings */,
+				2E3AE20A154F624A00B88CF6 /* main.m */,
+				2E3AE20C154F624A00B88CF6 /* Artistreeapp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E3AE1F9154F624A00B88CF6 /* Artistreeapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E3AE218154F624A00B88CF6 /* Build configuration list for PBXNativeTarget "Artistreeapp" */;
+			buildPhases = (
+				2E3AE1F6154F624A00B88CF6 /* Sources */,
+				2E3AE1F7154F624A00B88CF6 /* Frameworks */,
+				2E3AE1F8154F624A00B88CF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Artistreeapp;
+			productName = Artistreeapp;
+			productReference = 2E3AE1FA154F624A00B88CF6 /* Artistreeapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E3AE1F1154F624A00B88CF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2E3AE1F4154F624A00B88CF6 /* Build configuration list for PBXProject "Artistreeapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2E3AE1EF154F624A00B88CF6;
+			productRefGroup = 2E3AE1FB154F624A00B88CF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E3AE1F9154F624A00B88CF6 /* Artistreeapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E3AE1F8154F624A00B88CF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3AE209154F624A00B88CF6 /* InfoPlist.strings in Resources */,
+				2E3AE212154F624A00B88CF6 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E3AE1F6154F624A00B88CF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3AE20B154F624A00B88CF6 /* main.m in Sources */,
+				2E3AE20F154F624A00B88CF6 /* AppDelegate.m in Sources */,
+				2E3AE215154F624A00B88CF6 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E3AE207154F624A00B88CF6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E3AE208154F624A00B88CF6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2E3AE210154F624A00B88CF6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E3AE211154F624A00B88CF6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E3AE216154F624A00B88CF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		2E3AE217154F624A00B88CF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E3AE219154F624A00B88CF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Artistreeapp/Artistreeapp-Prefix.pch";
+				INFOPLIST_FILE = "Artistreeapp/Artistreeapp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2E3AE21A154F624A00B88CF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Artistreeapp/Artistreeapp-Prefix.pch";
+				INFOPLIST_FILE = "Artistreeapp/Artistreeapp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E3AE1F4154F624A00B88CF6 /* Build configuration list for PBXProject "Artistreeapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3AE216154F624A00B88CF6 /* Debug */,
+				2E3AE217154F624A00B88CF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E3AE218154F624A00B88CF6 /* Build configuration list for PBXNativeTarget "Artistreeapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3AE219154F624A00B88CF6 /* Debug */,
+				2E3AE21A154F624A00B88CF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E3AE1F1154F624A00B88CF6 /* Project object */;
+}
