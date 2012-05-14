@@ -9,7 +9,8 @@
 #import "ViewController.h"
 
 @implementation ViewController
-@synthesize biolabel, artists;
+@synthesize scroller;
+@synthesize biolabel, artists, connections;
 
 - (void)didReceiveMemoryWarning
 {
@@ -33,6 +34,10 @@
 
 }
 
+- (IBAction)connectArtists:(id)sender {
+    
+}
+
 -(void)createArtists
 {
     Artists* davinci;
@@ -50,6 +55,7 @@
 - (void)viewDidUnload
 {
     [self setBiolabel:nil];
+    [self setScroller:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

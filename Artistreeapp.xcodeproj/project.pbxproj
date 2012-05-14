@@ -20,6 +20,8 @@
 		2E3AE220154F629600B88CF6 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E3AE21F154F629600B88CF6 /* Default-Landscape~ipad.png */; };
 		2E3AE223154F62D800B88CF6 /* Artists.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3AE222154F62D800B88CF6 /* Artists.m */; };
 		2E3AE226154F62E800B88CF6 /* Connections.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3AE225154F62E800B88CF6 /* Connections.m */; };
+		486F045515609DE400F1B015 /* connections.png in Resources */ = {isa = PBXBuildFile; fileRef = 486F045415609DE400F1B015 /* connections.png */; };
+		486F045815609E5000F1B015 /* blue_michel_donatello.png in Resources */ = {isa = PBXBuildFile; fileRef = 486F045715609E5000F1B015 /* blue_michel_donatello.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		2E3AE222154F62D800B88CF6 /* Artists.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Artists.m; sourceTree = "<group>"; };
 		2E3AE224154F62E800B88CF6 /* Connections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connections.h; sourceTree = "<group>"; };
 		2E3AE225154F62E800B88CF6 /* Connections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connections.m; sourceTree = "<group>"; };
+		486F045415609DE400F1B015 /* connections.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = connections.png; sourceTree = "<group>"; };
+		486F045715609E5000F1B015 /* blue_michel_donatello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blue_michel_donatello.png; path = blueconnections/blue_michel_donatello.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				2E3AE21F154F629600B88CF6 /* Default-Landscape~ipad.png */,
+				486F045415609DE400F1B015 /* connections.png */,
+				486F045715609E5000F1B015 /* blue_michel_donatello.png */,
 				2E3AE21D154F628A00B88CF6 /* Default-Portrait~ipad.png */,
 				2E3AE21B154F627E00B88CF6 /* artistreeicon.png */,
 				2E3AE204154F624A00B88CF6 /* Artistreeapp */,
@@ -172,6 +178,8 @@
 				2E3AE21C154F627E00B88CF6 /* artistreeicon.png in Resources */,
 				2E3AE21E154F628A00B88CF6 /* Default-Portrait~ipad.png in Resources */,
 				2E3AE220154F629600B88CF6 /* Default-Landscape~ipad.png in Resources */,
+				486F045515609DE400F1B015 /* connections.png in Resources */,
+				486F045815609E5000F1B015 /* blue_michel_donatello.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +308,7 @@
 				2E3AE21A154F624A00B88CF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

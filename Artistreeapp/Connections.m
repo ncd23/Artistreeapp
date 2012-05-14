@@ -9,5 +9,6 @@
 #import "Connections.h"
 
 @implementation Connections
+@synthesize connectionIsPressed;
 
 @end

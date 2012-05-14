@@ -10,4 +10,7 @@
 
 @interface Connections : NSObject
 
+@property BOOL connectionIsPressed;
+
+-(BOOL) connectionIsPressed;
 @end
